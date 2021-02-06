@@ -14,21 +14,41 @@
         value: "",
         capsLock: false
     },
+    elements2: {
+        main: null,
+        keysContainer: null,
+        keys: []
+    },
 
+    eventHandlers2: {
+        oninput: null,
+        onclose: null
+    },
+
+    properties2: {
+        value: "",
+        capsLock: false
+    },
     init() {
-        // Create main elements
+       
         this.elements.main = document.createElement("div");
         this.elements.keysContainer = document.createElement("div");
-         // Setup main elements
         this.elements.main.classList.add("keyboard", "keyboard--hidden");
         this.elements.keysContainer.classList.add("keyboard__keys");
         this.elements.keysContainer.appendChild(this._createKeys());
-
         this.elements.keys = this.elements.keysContainer.querySelectorAll(".keyboard__key");
-
-        // Add to DOM
         this.elements.main.appendChild(this.elements.keysContainer);
-        document.body.appendChild(this.elements.main);
+        document.getElementById("keyboardData").appendChild(this.elements.main);
+
+        this.elements2.main = document.createElement("div");
+        this.elements2.keysContainer = document.createElement("div");
+        this.elements2.main.classList.add("keyboard", "keyboard--hidden");
+        this.elements2.keysContainer.classList.add("keyboard__keys");
+        this.elements2.keysContainer.appendChild(this._createKeys());
+        this.elements2.keys = this.elements2.keysContainer.querySelectorAll(".keyboard__key");
+        this.elements2.main.appendChild(this.elements2.keysContainer);
+        document.getElementById("keyboardData2").appendChild(this.elements2.main);
+
 
         // Automatically use keyboard for elements with .use-keyboard-input
         document.querySelectorAll(".use-keyboard-input").forEach(element => {
@@ -157,6 +177,7 @@
     },
 
     open(initialValue, oninput, onclose) {
+        
         this.properties.value = initialValue || "";
         this.eventHandlers.oninput = oninput;
         this.eventHandlers.onclose = onclose;

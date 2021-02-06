@@ -54,7 +54,6 @@ C:\Users\user\source\repos\Task\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\user\source\repos\Task\bin\Debug\netcoreapp3.1\SendGrid.dll
 C:\Users\user\source\repos\Task\bin\Debug\netcoreapp3.1\SendGrid.Extensions.DependencyInjection.dll
 C:\Users\user\source\repos\Task\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
-C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.csprojAssemblyReference.cache
 C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.RazorAssemblyInfo.cache
@@ -80,3 +79,4 @@ C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\staticwebassets\SendGrid
 C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.dll
 C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.pdb
 C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.genruntimeconfig.cache
+C:\Users\user\source\repos\Task\obj\Debug\netcoreapp3.1\SendGridTest.csprojAssemblyReference.cache

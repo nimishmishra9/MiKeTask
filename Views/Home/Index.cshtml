@@ -1,12 +1,11 @@
-﻿<section class="cards">
+﻿<section class="cards" style="height:1104px">
     <link href="~/css/custom.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="/assets/dcode.css">
-    <link rel="stylesheet" href="keyboard/Keyboard.css">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <article class="card card--1">
+    <article class="card card--1" style="height:927px;margin-top:239px">
         <div class="card__info-hover">
             <div class="card__clock-info">
             </div>
@@ -25,26 +24,30 @@
                 </select>
                 <span style="margin-top:5px;float:left" class="form-control col-sm-9">Type accented latters</span>
             </span>
-            <textarea class="form-control use-keyboard-input" style="position: absolute; top: 130px; right: 30px; width: 300px;"></textarea>
-           <div class="keyboard__keys"></div>
+           
+            <div id="keyboardData"></div>
         </div>
     </article>
-    <article class="card card--2">
+    <article class="card card--2" style="height:927px;margin-top:239px">
         <div class="card__info-hover">
-
             <div class="card__clock-info">
-
             </div>
-
         </div>
         <div class="card__img"></div>
         <a href="#" class="card_link">
             <div class="card__img--hover"></div>
         </a>
-        <div class="card__info">
-            <span class="card__category"> Recipe</span>
-            <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+        <div class="card__info card_deco">
+            <span>Say It: &nbsp;</span><input type="checkbox" id="SayCheck1" /><br />
+            <textarea class="form-control" style="margin-top:10px" id="TextAreaBind1"></textarea>
+            <input type="text" class="form-control" id="inputText1" style="margin-top:5px" />
+            <span>
+                <select class="form-control col-sm-3" id="drpdown1" style="margin-top:5px;float:left">
+                    <option>English</option>
+                </select>
+                <span style="margin-top:5px;float:left" class="form-control col-sm-9">Type accented latters</span>
+            </span>
+            <div id="keyboardData2"></div>
         </div>
     </article>
 </section>
